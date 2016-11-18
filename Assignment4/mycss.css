@@ -1,0 +1,222 @@
+html { 
+        background: url('images/back.jpg') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+audio { 
+   display:none;
+}
+
+.titlePic{
+	float: none;
+	border: none;
+	width: 750px;
+}
+
+img {
+    width:30%;
+    float:left;
+	border-style: inset;
+	border-width: 10px;
+    display: block;
+    margin:auto;
+}
+
+.slifer{
+    border-color: red;
+	-o-transition:1.5s;
+	-ms-transition:1.5s;
+	-moz-transition:1.5s;
+	-webkit-transition:1.5s;
+	/* ...and now for the proper property */
+	transition:1.5s;
+	width: 500px;
+	height: 500px;
+}
+.slifer:hover{
+	 -webkit-filter: contrast(600%); 
+}
+
+.obelisk{
+    border-color:dodgerblue;
+	-o-transition:1.5s;
+	-ms-transition:1.5s;
+	-moz-transition:1.5s;
+	-webkit-transition:1.5s;
+	/* ...and now for the proper property */
+	transition:1.5s;
+	width: 500px;
+	height: 500px;
+}
+
+.obelisk:hover{
+	 -webkit-filter: contrast(400%); 
+}
+.ra{
+    border-color:gold;
+	-o-transition:1.5s;
+	-ms-transition:1.5s;
+	-moz-transition:1.5s;
+	-webkit-transition:1.5s;
+	/* ...and now for the proper property */
+	transition:1.5s;
+	width: 500px;
+	height: 500px;
+}
+.ra:hover{
+	 -webkit-filter: contrast(600%); 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.redblock{
+	margin:5px;
+	width: 225px;
+	height: 300px;
+	border: 2px solid black;
+	background-color: red;
+	-o-transition:1.5s;
+	-ms-transition:1.5s;
+	-moz-transition:1.5s;
+	-webkit-transition:1.5s;
+	/* ...and now for the proper property */
+	transition:1.5s;
+}
+
+.redblock:hover{
+	background-color: #b30000;
+	/*background: url('images/sliferCard.png');*/
+	
+}
+
+.blueblock{
+	margin: 5px;
+	width: 225px;
+	height: 300px;
+	border: 2px solid black;
+	background-color: #005ce6;
+	-o-transition:1.5s;
+	-ms-transition:1.5s;
+	-moz-transition:1.5s;
+	-webkit-transition:1.5s;
+	/* ...and now for the proper property */
+	transition:1.5s;
+}
+
+.blueblock:hover{
+	background-color:#0047b3;
+}
+
+.yellowblock{
+	margin:5px;
+	width: 225px;
+	height: 300px;
+	border: 2px solid black;
+	background-color: gold;
+	-o-transition:1.5s;
+	-ms-transition:1.5s;
+	-moz-transition:1.5s;
+	-webkit-transition:1.5s;
+	/* ...and now for the proper property */
+	transition:1.5s;
+}
+
+.yellowblock:hover{
+	background-color: #b3b300;
+}
+
+#SliDrop.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+	background-color: red;
+	height: 550px;
+}
+
+#ObeDrop.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+	background-color: dodgerblue;
+	height: 550px;
+}
+
+#RaDrop.tabcontent {
+    display: none;
+    padding: 6px 12px;
+	border-top: none;
+	height: 550px;
+	background-color: gold;
+}
+
+ul.tab {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.tabcontent {
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.slifDumb{
+	background-color: red;
+}
+
+.obDumb{
+	background-color: dodgerblue;
+}
+
+.raDumb{
+	background-color: gold;
+}
+
+h1{
+	font-family:Impact, Charcoal, sans-serif;
+	font-size: 85px;
+}
+
+p{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:15px;
+}
+h2{
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size: 40px;
+	text-align: center;
+	color: white;
+	
+}
+
+.fadecard{
+	opacity: 0;
+	width: 225px;
+	height: 300px;
+	border: none;
+	-o-transition:1.5s;
+	-ms-transition:1.5s;
+	-moz-transition:1.5s;
+	-webkit-transition:1.5s;
+	/* ...and now for the proper property */
+	transition:1.5s;
+}
+
+.fadecard:hover{
+	opacity: .3;
+}

@@ -1,0 +1,80 @@
+body{
+	background-color: #B37D00;
+}
+
+
+
+.brownbox{
+	background-color: #6A3B00;
+	border: 2px solid black;
+	margin: 50px;
+}
+
+#image{
+	height: 300px;
+	width: 300px;
+	margin-left: 50px;
+	margin-top: 0px;
+	float: left;
+}
+
+#title.brownbox{
+	height: 220px;
+	width: 550px;
+	margin-left: 400px;
+	margin-top: 200px;
+	
+}
+
+#items{
+	width: 650px;
+	height: 148px;
+	margin-top: -152px;
+}
+
+.GoodThing{
+	background-color: #00E0D0;
+	border: 2px solid black;
+	margin-left: 400px;
+	margin-top: 0px;
+	height: 300px;
+	width: 300px;
+}
+
+.BadThing{
+	width: 200px;
+	height: 520px;
+	background-color: #E00025;
+	border: 2px solid black;
+	margin-left: 750px;
+	margin-top: -303px;
+}
+
+footer{
+	margin-top: 50px;
+	margin-left: 50px;
+	background-color: #FFE407;
+	text-align: center;
+	border: 2px solid black;
+	width: 902px;
+	height: 75px;
+}
+img{
+	width: 250px;
+	height: 250px;
+	margin: 25px;
+	
+}
+
+h1{
+	font-family:Arial, Helvetica, sans-serif;
+	padding: 5px;
+}
+p{
+	font-family:Verdana, Geneva, sans-serif;
+	padding: 5px;
+}
+li{
+	font-family:Verdana, Geneva, sans-serif;
+	padding: 5px;
+}
